@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">HolidayExplorer</string>
+    <string name="fav_list">Favourites List</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Holiday Explorer</string>
+    <string name="second_fragment_label">Long weekend planner</string>
+    <string name="details_fragment_label">Details</string>
+    <string name="app_name_text">Author:\nDawid Drożdżyński\n151867</string>
+    <string name="holiday_list_text">Next holidays around the world:</string>
+    <string name="additional_info">Additional info:</string>
+    <string name="planner_select">Select country:</string>
+    <string name="planner_list">Long weekends in selected country this year:</string>
+    <string name="holidays_list">Holidays in selected country this year:</string>
+
+</resources>

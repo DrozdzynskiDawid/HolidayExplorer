@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <org.osmdroid.views.MapView
+        android:id="@+id/osmmap"
+        android:layout_width="match_parent"
+        android:layout_height="326dp"
+        android:layout_marginTop="10dp"
+        android:apiKey="YOUR_API_KEY_HERE">
+
+    </org.osmdroid.views.MapView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/yourLocalizationButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:src="@drawable/localization_icon"
+            app:backgroundTint="#01579B"
+            app:tint="#FFFFFF"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/favouriteButton"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:src="@drawable/favourite_icon"
+            app:backgroundTint="#01579B"
+            app:tint="#FFFFFF"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/detailsDescription"
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/additional_info"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/additionalInfo"
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:gravity="center_horizontal"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
